@@ -14,6 +14,6 @@ window.addEventListener("load", () => {
   if (searchBox && chatTitle && messageInput && sendButton) {
     console.log("✅ All key elements located successfully!");
   } else {
-    console.log("⚠️ Some elements are missing. Double-check selectors.teri maa ka");
+    console.log("⚠️ Some elements are missing. Double-check selectors.");
   }
 });
