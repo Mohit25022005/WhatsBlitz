@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Automation - Day 1",
+  "version": "1.0",
+  "description": "Injects script into WhatsApp Web to explore DOM",
+  "host_permissions": ["https://web.whatsapp.com/"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
